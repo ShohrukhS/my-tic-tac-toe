@@ -1,0 +1,49 @@
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 134px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+
+  @media (max-width: 800px) {
+    .square {
+      font-size: 36px; /* Smaller font size */
+      line-height: 50px; /* Smaller line height */
+      height: 100px; /* Smaller height */
+      width: 100px; /* Smaller width */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .square {
+      font-size: 36px; /* Smaller font size */
+      line-height: 50px; /* Smaller line height */
+      height: 80px; /* Smaller height */
+      width: 80px; /* Smaller width */
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .square {
+      font-size: 24px; /* Even smaller font size */
+      line-height: 35px; /* Even smaller line height */
+      height: 35px; /* Even smaller height */
+      width: 35px; /* Even smaller width */
+    }
+  }
